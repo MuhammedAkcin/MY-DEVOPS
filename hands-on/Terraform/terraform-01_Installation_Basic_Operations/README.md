@@ -4,7 +4,7 @@ Purpose of the this hands-on training is to give students the knowledge of basic
 
 ## Learning Outcomes
 
-At the end of the this hands-on training, students will be able to;
+At the end of the this hands-on training, students will be able to
 
 - Install Terraform
 
@@ -20,7 +20,7 @@ At the end of the this hands-on training, students will be able to;
 
 - Launch an EC2 instance using the Amazon Linux 2 AMI with security group allowing SSH connections.
 
-- Connect to your instance with SSH.
+- Connect to your instance with SSH
 
 ```bash
 ssh -i .ssh/call-training.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
