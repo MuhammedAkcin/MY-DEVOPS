@@ -52,7 +52,7 @@ docker help | less
 docker run --help | less
 ```
 
-- Download and run `ubuntu` os with interactive shell open.
+- Download and run `ubuntu` os with interactive shell open
 
 ```bash
 docker run -i -t ubuntu
