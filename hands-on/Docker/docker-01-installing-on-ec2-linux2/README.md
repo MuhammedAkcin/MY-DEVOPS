@@ -163,7 +163,7 @@ Server:
 
 ## Part 3 - Configure a Cloudformation Template for a Docker machine
 
-- Write and configure a Cloudformation Template to have a Docker machine ready on Amazon Linux 2 EC2 Instance with security group allowing SSH connections from anywhere.
+- Write and configure a Cloudformation Template to have a Docker machine ready on Amazon Linux 2 EC2 Instance with security group allowing SSH connections from anywhere
 
 ```yaml
 AWSTemplateFormatVersion: 2010-09-09
