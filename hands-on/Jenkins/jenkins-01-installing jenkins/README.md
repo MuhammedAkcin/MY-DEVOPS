@@ -1,12 +1,12 @@
 # Hands-on Jenkins-01 : Installing Jenkins on Amazon Linux 2 EC2 Instance
 
-Purpose of the this hands-on training is to learn how to install Jenkins Server on Amazon Linux 2 EC2 instance and build simple jobs.
+Purpose of the this hands-on training is to learn how to install Jenkins Server on Amazon Linux 2 EC2 instance and build simple jobs
 
 ## Learning Outcomes
 
 At the end of the this hands-on training, students will be able to;
 
-- install and configure Jenkins Server on Amazon Linux 2 EC2 instance using `yum` repo.
+- install and configure Jenkins Server on Amazon Linux 2 EC2 instance using `yum` repo
 
 - install plugins
 
