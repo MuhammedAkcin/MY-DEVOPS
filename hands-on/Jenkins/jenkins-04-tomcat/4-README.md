@@ -51,7 +51,7 @@ sudo yum install unzip wget -y
 
 - Install Tomcat
 
-- Got to https://tomcat.apache.org/download-80.cgi page
+- Got to https://tomcat.apachtoe.org/download-80.cgi page
 
 - Look at Binary Distributions and copy the link of the `zip`ed one.
 
