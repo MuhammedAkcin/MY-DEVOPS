@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 
 Description: >
   This Cloudformation Template creates five Compose enabled Docker Machines on EC2 Instances
-  which are ready for Docker Swarm operations, using the AMI of Clarusway (ami-0858bef4ba3225b69). 
+  which are ready for Docker Swarm operations, using the AMI of Clarusway (ami-05fa00d4c63e32376). 
   The AMI of Clarusway Compose enabled Docker Machine (clarusway-docker-machine-with-compose-amazon-linux-2)
   is published on North Virginia Region for educational purposes. 
   Docker Machines will run on Amazon Linux 2 with custom security group 
@@ -40,7 +40,7 @@ Resources:
   DockerMachine1:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0858bef4ba3225b69
+      ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: !Ref KeyPairName
       SecurityGroupIds:
@@ -52,7 +52,7 @@ Resources:
   DockerMachine2:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0858bef4ba3225b69
+      ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: !Ref KeyPairName
       SecurityGroupIds:
@@ -64,7 +64,7 @@ Resources:
   DockerMachine3:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0858bef4ba3225b69
+      ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: !Ref KeyPairName
       SecurityGroupIds:
@@ -76,7 +76,7 @@ Resources:
   DockerMachine4:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0858bef4ba3225b69
+      ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: !Ref KeyPairName
       SecurityGroupIds:
@@ -88,7 +88,7 @@ Resources:
   DockerMachine5:
     Type: AWS::EC2::Instance
     Properties:
-      ImageId: ami-0858bef4ba3225b69
+      ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: !Ref KeyPairName
       SecurityGroupIds:
