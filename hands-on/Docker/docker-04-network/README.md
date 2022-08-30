@@ -16,7 +16,7 @@ At the end of the this hands-on training, students will be able to;
 
 - explain default network bridge configuration.
 
-- configure user-defined network bridge
+- configure user-defined network bridge.
 
 - ping containers within same network.
 

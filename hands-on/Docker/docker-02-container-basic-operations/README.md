@@ -40,7 +40,7 @@ ssh -i .ssh/call-training.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazon
 sudo systemctl status docker
 ```
 
-- Run either `docker` or `docker help` to see the help docs about docker commands
+- Run either `docker` or `docker help` to see the help docs about docker commands.
 
 ```bash
 docker help | less
@@ -52,7 +52,7 @@ docker help | less
 docker run --help | less
 ```
 
-- Download and run `ubuntu` os with interactive shell open
+- Download and run `ubuntu` os with interactive shell open.
 
 ```bash
 docker run -i -t ubuntu
