@@ -423,7 +423,7 @@ docker stack ps wpclarus
 
 - Check if the `wordpress` is running by entering `http://<ec2-host-name>` in a browser.
 
-- Remove stacks.
+- Remove stacks
 
 ```bash
 docker stack rm wpclarus
