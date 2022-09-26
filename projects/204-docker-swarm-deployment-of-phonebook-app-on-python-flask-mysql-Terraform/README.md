@@ -14,7 +14,7 @@ This project aims to deploy the Phonebook Application web application with Docke
 
   - Create a new public repository for the project on GitHub.
 
-  - Create docker image using the `Dockerfile` from the base image of `python:alpine`.
+  - Create docker image using the `Dockerfile` from the base image of `python:alpine`
 
   - Deploy the app on swarm using `docker compose`. To do so on the `Compose` file;
 
