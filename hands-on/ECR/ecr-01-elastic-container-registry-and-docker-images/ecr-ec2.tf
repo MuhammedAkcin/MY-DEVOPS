@@ -67,7 +67,7 @@ resource "aws_iam_instance_profile" "ec2_profile" {
 
 
 resource "aws_instance" "ecr-instance" {
-  ami                  = "ami-02e136e904f3da870"
+  ami                  = "ami-05fa00d4c63e32376"
   instance_type        = "t2.micro"
   key_name        = "FB1907" # you need to change this line
   security_groups = ["ec2-sec-gr"]
@@ -101,5 +101,5 @@ output "ec2-public-ip" {
 }
 
 output "ssh-connection" {
-  value = "ssh -i ~/.ssh/mk.pem ec2-user@${aws_instance.ecr-instance.public_ip}"
+  value = "ssh -i ~/.ssh/FB1907.pem ec2-user@${aws_instance.ecr-instance.public_ip}"
 }

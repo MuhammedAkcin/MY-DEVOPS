@@ -203,6 +203,7 @@ docker push xxxxxxxxxxx.dkr.ecr.us-east-1.amazonaws.com/student1-repo/todo-app:l
 
 ```bash
 docker run --name todo-v1 -dp 80:3000 xxxxxxxxxxxxxx.dkr.ecr.us-east-1.amazonaws.com/student1-repo/todo-app:latest
+docker run --name todo-v1 -dp 80:3000 288487019972.dkr.ecr.us-east-1.amazonaws.com/student1-repo/todo-app:latest
 ```
 - Show the changes in the browser 
 
