@@ -21,8 +21,8 @@ provider "aws" {
 
 
 locals {
-  github-repo = "https://github.com/AlexDuncan2100/mylastswarm.git"
-  github-file-url = "https://raw.githubusercontent.com/AlexDuncan2100/mylastswarm/master/"
+  github-repo = "https://github.com/C9198-Mete/project-204.git"
+  github-file-url = "https://raw.githubusercontent.com/C9198-Mete/project-204/master/"
 }
 
 data "aws_caller_identity" "current" {}
