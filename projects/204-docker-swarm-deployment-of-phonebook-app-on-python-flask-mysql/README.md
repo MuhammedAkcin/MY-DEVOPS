@@ -57,7 +57,7 @@ This project aims to deploy the Phonebook Application web application with Docke
 
     - Create a separate instance with `instance profile` to be first manager node of the swarm. Within the `user-data` script;
 
-      - Set the first manager node hostname as `Grand-Master`.
+      - Set the first manager node hostname as `Grand-Master`
 
       - Initialize Docker swarm.
 
