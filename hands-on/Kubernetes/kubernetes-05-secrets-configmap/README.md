@@ -8,9 +8,9 @@ At the end of the this hands-on training, students will be able to;
 
 - Explain the Kubernetes Secrets
 
-- Share sensitive data (such as passwords) using Secrets.
+- Share sensitive data (such as passwords) using Secrets
 
-- Learn configuration management for applications in Kubernetes using ConfigMaps.
+- Learn configuration management for applications in Kubernetes using ConfigMaps
 
 ## Outline
 

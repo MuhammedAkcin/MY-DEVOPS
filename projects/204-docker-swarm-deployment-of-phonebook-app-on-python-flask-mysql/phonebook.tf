@@ -178,7 +178,7 @@ resource "aws_iam_role" "ec2fulltoecr" {
 resource "aws_instance" "docker-machine-leader-manager" {
   ami             = "ami-087c17d1fe0178315"
   instance_type   = "t2.micro"
-  key_name        = "aduncan"
+  key_name        = "FB1907"
   root_block_device {
       volume_size = 16
   }  
@@ -194,7 +194,7 @@ resource "aws_instance" "docker-machine-leader-manager" {
 resource "aws_instance" "docker-machine-managers" {
   ami             = "ami-087c17d1fe0178315"
   instance_type   = "t2.micro"
-  key_name        = "aduncan"
+  key_name        = "FB1907"
   //  Write your pem file name
   security_groups = ["aduncan-docker-swarm-sec-gr"]
   iam_instance_profile = aws_iam_instance_profile.ec2ecr-profile.name
@@ -209,7 +209,7 @@ resource "aws_instance" "docker-machine-managers" {
 resource "aws_instance" "docker-machine-workers" {
   ami             = "ami-087c17d1fe0178315"
   instance_type   = "t2.micro"
-  key_name        = "aduncan"
+  key_name        = "FB1907"
   //  Write your pem file name
   security_groups = ["aduncan-docker-swarm-sec-gr"]
   iam_instance_profile = aws_iam_instance_profile.ec2ecr-profile.name
