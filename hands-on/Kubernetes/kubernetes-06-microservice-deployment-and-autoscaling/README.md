@@ -31,7 +31,7 @@ At the end of the this hands-on training, students will be able to;
 >*Note: If you have problem with kubernetes cluster, you can use this link for lesson.*
 >https://www.katacoda.com/courses/kubernetes/playground
 
-- Check if Kubernetes is running and nodes are ready.
+- Check if Kubernetes is running and nodes are ready
 
 ```bash
 kubectl cluster-info
