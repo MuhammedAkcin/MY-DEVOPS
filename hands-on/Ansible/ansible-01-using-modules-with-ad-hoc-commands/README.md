@@ -4,7 +4,7 @@ The purpose of this hands-on training is to give students knowledge of basic Ans
 
 ## Learning Outcomes
 
-At the end of this hands-on training, students will be able to;
+At the end of this hands-on training, students will be able to
 
 - Explain what Ansible can do
 - Learn basic Ad-hoc commands  
