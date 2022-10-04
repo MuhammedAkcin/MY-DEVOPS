@@ -96,7 +96,7 @@ This project aims to create a Jenkins pipeline to deploy the Phonebook Applicati
 
   - Create an image repository on ECR for the app.
 
-  - Build the application Docker image and push it to the ECR repository.
+  - Build the application Docker image and push it to the ECR repository
 
   - Build the infrastructure for the app on EC2 instances using Cloudformation template/Terraform configuration file.
 
