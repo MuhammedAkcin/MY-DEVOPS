@@ -5,7 +5,7 @@ Purpose of this hands-on training is to give students the knowledge of how to us
 
 ## Learning Outcomes
 
-At the end of this hands-on training, students will be able to;
+At the end of this hands-on training, students will be able to
 
 - Learn to Create and Manage EKS Cluster with Worker Nodes
 
