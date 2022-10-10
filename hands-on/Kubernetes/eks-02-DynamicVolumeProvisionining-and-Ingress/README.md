@@ -6,7 +6,7 @@ Purpose of the this hands-on training is to give students the knowledge of  Dyna
 
 At the end of the this hands-on training, students will be able to;
 
-- Learn to Create and Manage EKS Cluster with eksctl.
+- Learn to Create and Manage EKS Cluster with eksctl
 
 - Explain the need for persistent data management
 
