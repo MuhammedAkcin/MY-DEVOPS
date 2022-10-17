@@ -4,7 +4,7 @@ Purpose of the this hands-on training is to give students the knowledge of ansib
 
 ## Learning Outcomes
 
-At the end of this hands-on training, students will be able to;
+At the end of this hands-on training, students will be able to
 
 - Explain how and what facts gathering and how to use it in the playbook
 - Learn how to deal with secret values with ansible-vault
@@ -27,7 +27,7 @@ At the end of this hands-on training, students will be able to;
     3. node2 ----> (SSH PORT 22, HTTP PORT 80)
 
 
-- Connect to the control node via SSH and run the following commands.
+- Connect to the control node via SSH and run the following commands
 
 ```bash
 sudo yum update -y
@@ -36,7 +36,7 @@ sudo amazon-linux-extras install ansible2
 
 ### Confirm Installation
 
-- To confirm the successful installation of Ansible, run the following command.
+- To confirm the successful installation of Ansible, run the following command
 
 ```bash
 $ ansible --version
