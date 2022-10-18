@@ -150,7 +150,7 @@ ls clarus-chart
 rm -rf clarus-chart/templates/*
 ```
 
-- Create a `configmap.yaml` file under `clarus-chart/templates` folder with following content.
+- Create a `configmap.yaml` file under `clarus-chart/templates` folder with following content
 
 ```yaml
 apiVersion: v1
