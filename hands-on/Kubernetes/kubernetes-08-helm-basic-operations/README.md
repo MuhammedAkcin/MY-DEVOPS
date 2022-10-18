@@ -811,7 +811,7 @@ kubectl get deployment
 kubectl get svc
 ```
 
-- Uninstall the release.
+- Uninstall the release
 
 ```bash
 helm uninstall github-repo-release
