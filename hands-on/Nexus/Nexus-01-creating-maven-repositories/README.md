@@ -6,7 +6,7 @@ Purpose of this hands-on training is to learn how to create and use Nexus reposi
 
 At the end of this hands-on training, students will be able to;
 
-- Create hosted and proxy repostiories.
+- Create hosted and proxy repostiories
 
 - Create a group repository consisting of hosted and proxy repositories.
 
