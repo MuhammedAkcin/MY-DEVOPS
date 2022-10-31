@@ -29,7 +29,7 @@ At the end of this hands-on training, students will be able to;
 
 - Connect to the control node via SSH and run the following commands.
 
-- Run the commands below to install Python3 and Ansible. 
+- Run the commands below to install Python3 and Ansible 
 
 ```bash
 $ sudo yum install -y python3 
