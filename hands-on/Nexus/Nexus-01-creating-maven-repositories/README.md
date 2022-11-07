@@ -46,7 +46,7 @@ sudo yum update -y
 
 
 - Install Java:
-Maven is Java based application, so to run Maven we have to install Java on the server.
+Maven is Java based application, so to run Maven we have to install Java on the server
 
 ```
 sudo yum install java-1.8.0-openjdk -y
