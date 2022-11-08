@@ -16,7 +16,7 @@ At the end of the this hands-on training, students will be able to;
 
 - delete images and repositories on ECR from the AWS Management Console.
 
-- Deploy application to AWS ECS using aws management console, aws cli and aws copilot.
+- Deploy application to AWS ECS using aws management console, aws cli and aws copilot
 
 ## Outline
 
