@@ -94,7 +94,7 @@ This project aims to create a Jenkins pipeline to deploy the Phonebook Applicati
 
 - Create a Jenkins Pipeline with following configuration;
 
-  - Create an image repository on ECR for the app.
+  - Create an image repository on ECR for the app
 
   - Build the application Docker image and push it to the ECR repository
 
