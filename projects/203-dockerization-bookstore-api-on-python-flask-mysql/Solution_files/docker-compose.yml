@@ -4,16 +4,15 @@ services:
   database:
     image: mysql:5.7
     container_name: database
-    environment:
-      MYSQL_ROOT_PASSWORD: P123456p
+    environment: 
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: bookstore_db
       MYSQL_USER: clarusway
       MYSQL_PASSWORD: Clarusway_1
-      MYSQL_DATABASE: bookstore_db
     networks:
       - clarusnet
-
-  myapp:
-    image: olivercw/bookstoreapi:latest
+  myapp :
+    image: bookstore-api:latest
     container_name: myapp
     restart: always
     depends_on:
@@ -22,9 +21,6 @@ services:
       - "80:80"
     networks:
       - clarusnet
-
+  
 networks:
   clarusnet:
-    driver: bridge
-
-
